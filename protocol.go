@@ -44,7 +44,7 @@ func (direction Direction) String() string {
 	}
 }
 
-//goland:noinspection ALL
+//goland:noinspection GoSnakeCaseUsage,GoUnusedConst
 const (
 	Unknown Version = -1
 	v1_7_2  Version = 4
@@ -78,4 +78,5 @@ const (
 	V1_16_4 Version = 754
 	V1_17   Version = 755
 	V1_17_1 Version = 756
+	V1_18   Version = 757
 )
